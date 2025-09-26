@@ -1,6 +1,6 @@
 // Script pour créer des docteurs de test et corriger les problèmes de données
 import mongoose from 'mongoose';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import doctorModel from './models/doctorModel.js';
 
 // Connexion à MongoDB
